@@ -1,0 +1,22 @@
+# Guest review routing definition
+guest_review.settings_tab:
+  route_name: guest_review.settings
+  title: 'Settings'
+  base_route: guest_review.settings
+
+entity.guest_review.canonical:
+  route_name: entity.guest_review.canonical
+  base_route: entity.guest_review.canonical
+  title: 'View'
+
+entity.guest_review.edit_form:
+  route_name: entity.guest_review.edit_form
+  base_route: entity.guest_review.canonical
+  title: 'Edit'
+
+entity.guest_review.delete_form:
+  route_name:  entity.guest_review.delete_form
+  base_route:  entity.guest_review.canonical
+  title: Delete
+  weight: 10
+

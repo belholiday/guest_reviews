@@ -1,0 +1,14 @@
+
+# Guest review menu items definition
+entity.guest_review.collection:
+  title: 'Guest review list'
+  route_name: entity.guest_review.collection
+  description: 'List Guest review entities'
+  parent: system.admin_structure
+  weight: 100
+
+guest_review.admin.structure.settings:
+  title: Guest review settings
+  description: 'Configure Guest review entities'
+  route_name: guest_review.settings
+  parent: system.admin_structure

@@ -1,0 +1,5 @@
+entity.guest_review.add_form:
+  route_name: entity.guest_review.add_form
+  title: 'Add Guest review'
+  appears_on:
+    - entity.guest_review.collection

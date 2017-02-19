@@ -1,0 +1,22 @@
+add guest review entities:
+  title: 'Create new Guest review entities'
+
+administer guest review entities:
+  title: 'Administer Guest review entities'
+  description: 'Allow to access the administration form to configure Guest review entities.'
+  restrict access: true
+
+delete guest review entities:
+  title: 'Delete Guest review entities'
+
+edit guest review entities:
+  title: 'Edit Guest review entities'
+
+access guest review overview:
+  title: 'Access the Guest review overview page'
+
+view published guest review entities:
+  title: 'View published Guest review entities'
+
+view unpublished guest review entities:
+  title: 'View unpublished Guest review entities'

@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains guest_reviews.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function guest_reviews_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the guest_reviews module.
+    case 'help.page.guest_reviews':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Guest Reviews') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function guest_reviews_theme() {
+  return [
+    'guest_reviews' => [
+      'template' => 'guest_reviews',
+      'render element' => 'children',
+    ],
+  ];
+}

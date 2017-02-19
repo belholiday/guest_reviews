@@ -1,0 +1,22 @@
+{#
+/**
+ * @file guest_review.html.twig
+ * Default theme implementation to present Guest review data.
+ *
+ * This template is used when viewing Guest review pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_guest_review()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('guest_review') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

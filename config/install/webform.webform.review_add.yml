@@ -1,0 +1,100 @@
+uuid: 32e9f836-9690-4109-a6b2-972897d88e35
+langcode: ru
+status: true
+dependencies: {  }
+uid: 1
+template: false
+id: review_add
+title: 'Написать отзыв'
+description: ''
+elements: "flex1:\n  '#type': webform_flexbox\n  name:\n    '#type': textfield\n    '#title': 'Ваше имя'\n    '#placeholder': 'Ваше имя: Иван Иванов'\n    '#required': true\n  email:\n    '#type': email\n    '#title': E-mail\n    '#placeholder': you-name@yandex.ru\n    '#format': value\n    '#required': true\n  phone:\n    '#type': tel\n    '#title': Телефон\n    '#placeholder': '+7 (xxx) NNN-NN-NN | +375 (xx) NNN-NN-NN'\nmessage:\n  '#type': textarea\n  '#title': Отзыв\n"
+css: ''
+javascript: ''
+settings:
+  page: true
+  page_submit_path: guest-reviews/add
+  page_confirm_path: ''
+  form_submit_label: 'Отправить отзыв'
+  form_submit_once: false
+  form_submit_attributes: {  }
+  form_exception_message: ''
+  form_closed_message: ''
+  form_previous_submissions: false
+  form_confidential: false
+  form_confidential_message: ''
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_next_button_label: ''
+  wizard_next_button_attributes: {  }
+  wizard_prev_button_label: ''
+  wizard_prev_button_attributes: {  }
+  wizard_start_label: ''
+  wizard_complete: true
+  wizard_complete_label: ''
+  preview: 0
+  preview_next_button_label: ''
+  preview_next_button_attributes: {  }
+  preview_prev_button_label: ''
+  preview_prev_button_attributes: {  }
+  preview_message: ''
+  draft: false
+  draft_auto_save: false
+  draft_button_label: ''
+  draft_button_attributes: {  }
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  purge: none
+  purge_days: null
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+handlers: {  }

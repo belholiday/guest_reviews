@@ -1,14 +1,14 @@
 {
-  "name": "drupal/guest_reviews",
+  "name": "cyberlex404/guest_reviews",
   "type": "drupal-module",
   "description": "Guest Reviews",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/guest_reviews",
+  "homepage": "https://github.com/cyberlex404/guest_reviews",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/guest_reviews",
-    "source": "http://cgit.drupalcode.org/guest_reviews"
+    "issues": "https://github.com/cyberlex404/guest_reviews/issues",
+    "source": "https://github.com/cyberlex404/guest_reviews"
   },
   "require": { }
 }

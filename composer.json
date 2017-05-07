@@ -1,6 +1,6 @@
 {
   "name": "cyberlex404/guest_reviews",
-  "type": "drupal-module",
+  "type": "drupal-module-custom",
   "description": "Guest Reviews",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",

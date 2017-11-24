@@ -1,14 +1,14 @@
 {
-  "name": "cyberlex404/guest_reviews",
-  "type": "drupal-module-custom",
+  "name": "belholiday/guest_reviews",
+  "type": "drupal-module",
   "description": "Guest Reviews",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://github.com/cyberlex404/guest_reviews",
+  "homepage": "https://github.com/belholiday/guest_reviews",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://github.com/cyberlex404/guest_reviews/issues",
-    "source": "https://github.com/cyberlex404/guest_reviews"
+    "issues": "https://github.com/belholiday/guest_reviews/issues",
+    "source": "https://github.com/belholiday/guest_reviews"
   },
   "require": { }
 }
